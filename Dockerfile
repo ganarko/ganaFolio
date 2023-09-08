@@ -1,7 +1,7 @@
 # This file is the main docker file configurations
 
 # Official Node JS runtime as a parent image
-FROM node:10.16.0-alpine
+FROM node:14-alpine
 
 # Set the working directory to ./app
 WORKDIR /app
@@ -11,7 +11,7 @@ WORKDIR /app
 # where available (npm@5+)
 COPY package.json ./
 
-RUN apk add --no-cache git
+RUN apk update && apk add --no-cache git
 
 # Install any needed packages
 RUN npm install
