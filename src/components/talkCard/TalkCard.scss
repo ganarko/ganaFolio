@@ -35,7 +35,7 @@
   margin: auto;
   text-align: left;
   margin-top: 25px;
-  padding: 0px 0px 40px 30px;
+  padding: 0px 0px 30px 30px;
   font-size: 30px;
   line-height: normal;
   overflow: hidden;
@@ -44,13 +44,13 @@
   -webkit-box-orient: vertical;
 }
 .talk-card-subtitle {
-  margin-top: 35px;
+  margin-top: 40px;
   text-align: justify;
-  padding-left: 30px;
-  padding-right: 30px;
-  font-size: 16px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 20px;
   color: $talkCardSubTitle;
-  line-height: 18px;
+  line-height: 24px;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -75,6 +75,7 @@
 .card-footer-button-div {
   display: flex;
   justify-content: space-around;
+  padding-bottom: 10px;
 }
 
 /* Media Query */

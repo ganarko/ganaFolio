@@ -15,6 +15,7 @@ export default function Talks() {
       <div className="main" id="talks">
         <div className="talk-header">
           <h1 className="talk-header-title">{talkSection.title}</h1>
+          <b>
           <p
             className={
               isDark
@@ -24,6 +25,7 @@ export default function Talks() {
           >
             {talkSection.subtitle}
           </p>
+          </b>
           {talkSection.talks.map((talk, i) => {
             return (
               <TalkCard

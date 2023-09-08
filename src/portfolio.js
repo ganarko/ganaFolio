@@ -39,7 +39,7 @@ const socialMediaLinks = {
   // gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/gana.praveen.7/",
   // medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  stackoverflow: "https://stackoverflow.com/users/12585533/gana-sai-praveen",
   instagram: "https://www.instagram.com/gana_rko/",
   //  Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -67,31 +67,31 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "Problem Solving",
-      fontAwesomeClassname: "fa-solid fa-brain"
+      fontAwesomeClassname: "fa-sharp fa-gears"
     },
     {
       skillName: "Automation",
-      fontAwesomeClassname: "fa-brands fa-jenkins"
+      fontAwesomeClassname: "fab fa-jenkins"
     },
     {
       skillName: "Java",
-      fontAwesomeClassname: "fa-brands fa-java"
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "Python",
-      fontAwesomeClassname: "fas fa-python"
+      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "Shell",
-      fontAwesomeClassname: "fa-brands fa-linux"
+      fontAwesomeClassname: "fab fa-linux"
     },
     {
       skillName: "Kubernetes",
-      fontAwesomeClassname: "fa-solid fa-microchip"
+      fontAwesomeClassname: "fa-regular fa-microchip"
     },
     {
       skillName: "GCP",
-      fontAwesomeClassname: "fa-brands fa-google"
+      fontAwesomeClassname: "fab fa-google"
     },
     {
       skillName: "docker",
@@ -99,19 +99,19 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Observability",
-      fontAwesomeClassname: "fa-solid fa-magnifying-glass"
+      fontAwesomeClassname: "fab fa-list"
     },
     {
       skillName: "Networking",
-      fontAwesomeClassname: "fa-solid fa-network-wired"
+      fontAwesomeClassname: "fa-regular fa-network-wired"
     },
     {
       skillName: "OS",
-      fontAwesomeClassname: "fa-solid fa-server"
+      fontAwesomeClassname: "fab fa-server"
     },
     {
       skillName: "Distributed Systems",
-      fontAwesomeClassname: "fab fa-sitemap"
+      fontAwesomeClassname: "fa-solid fa-sitemap"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -132,7 +132,19 @@ const educationInfo = {
         "It's Magic",
         "Culture, Campus Life and Peers"
       ]
-    }
+    },
+    {
+      schoolName: "Jawahar Navodaya Vidyalaya",
+      logo: require("./assets/images/jnv.webp"),
+      subHeader: "Bachelor of Engineering in Electrical and Electronics Engineering",
+      duration: "July 2017 - July 2021",
+      desc: "Birthplace of my Engineering Soul",
+      descBullets: [
+        "It's Magic",
+        "Culture, Campus Life and Peers"
+      ]
+    },
+
   ]
 };
 
@@ -165,7 +177,7 @@ const workExperiences = {
     {
       role: "Site Reliability Engineer",
       company: "media.net",
-      companylogo: require("./assets/images/media.png"),
+      companylogo: require("./assets/images/mnet.png"),
       date: "Jul 2021 – Present",
       desc: "trying to deliver ads faster, while you're browsing.",
       descBullets: [
@@ -194,7 +206,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Hobbies",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
@@ -236,7 +248,7 @@ const achievementSection = {
     {
       title: "Hackathons",
       subtitle:
-        "I love challenges, usually compete in Hackathons at least once in a year",
+        "I love challenges and usually participate in hackathons at least once a year.",
       image: require("./assets/images/hackathons.png"),
       imageAlt: "Hackathos",
       footerLink: [
@@ -251,9 +263,9 @@ const achievementSection = {
       ]
     },
     {
-      title: "Upskilling",
+      title: "",
       subtitle:
-        "I belive in continious larning, hence I upskill myself in relavent courses on NPTEL.",
+        "I belive in continuous learning, I upskill myself with my job relavent courses on NPTEL.",
       image: require("./assets/images/nptel.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
@@ -283,12 +295,12 @@ const blogSection = {
     "I love to write and share my experiences",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
-    // {
-    //   url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-    //   title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-    //   description:
-    //     "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    // },
+    {
+      url: "https://localhost:3000",
+      title: "My First blog",
+      description:
+        "May be on Travel or Tech (Soon, I hope)"
+    }
     // {
     //   url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
     //   title: "Why REACT is The Best?",
@@ -310,7 +322,7 @@ const talkSection = {
   talks: [
     {
       title: "Compatability Quiz",
-      subtitle: "You can check your compatabity with me Here",
+      subtitle: "Let's check our compatability ...",
       slides_url: "https://docs.google.com/forms/d/e/1FAIpQLSdOJxPuKcPFSSSo7my7Fr6-EmUshHJxPTU9U3_EXYEyIOAcfA/viewform",
       event_url: "https://docs.google.com/forms/d/e/1FAIpQLSdkt10hrr6wq7xx7vRuzTj_jfy-nwHFbfPPCciwV3m2a2I5yQ/viewform"
     }
@@ -321,21 +333,21 @@ const talkSection = {
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  title: emoji("Hobbies & Intrests"),
+  subtitle: "Cricket, Travelling, Photography, Long Drives, Visiting Temples, Hiking, Music ....",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    // "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss an Idea or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
+    emoji("Just want to say hi? Then Please don't 😅. I prefer Deep conversations, rather than small talks."),
+  number: "+91-0000000000",
   email_address: "ganasaipraveen9@gmail.com"
 };
 
