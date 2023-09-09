@@ -50,7 +50,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Curious SRE WHO WANTS TO Design Reliable and Scalable Systems",
+  subTitle: "Curious SRE Who love's to Design Reliable and Scalable Systems",
   skills: [
     emoji(
       "⚡ Build, Maintain Sophisticated and Resilient Infrastructure"
@@ -67,47 +67,51 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "Problem Solving",
-      fontAwesomeClassname: "fa-sharp fa-gears"
+      fontAwesomeClassname: "fa-solid fa-brain"
     },
     {
       skillName: "Automation",
-      fontAwesomeClassname: "fab fa-jenkins"
+      fontAwesomeClassname: "fa-solid fa-gears"
     },
     {
       skillName: "Java",
-      fontAwesomeClassname: "fab fa-java"
+      fontAwesomeClassname: "fa-brands fa-java"
     },
     {
       skillName: "Python",
-      fontAwesomeClassname: "fab fa-python"
+      fontAwesomeClassname: "fa-brands fa-python"
     },
     {
       skillName: "Shell",
-      fontAwesomeClassname: "fab fa-linux"
+      fontAwesomeClassname: "fa-solid fa-terminal"
     },
     {
       skillName: "Kubernetes",
-      fontAwesomeClassname: "fa-regular fa-microchip"
+      fontAwesomeClassname: "fa-solid fa-microchip"
     },
     {
       skillName: "GCP",
-      fontAwesomeClassname: "fab fa-google"
+      fontAwesomeClassname: "fa-brands fa-google"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Docker",
+      fontAwesomeClassname: "fa-brands fa-docker"
+    },
+    {
+      skillName: "Jenkins",
+      fontAwesomeClassname: "fa-brands fa-jenkins"
     },
     {
       skillName: "Observability",
-      fontAwesomeClassname: "fab fa-list"
+      fontAwesomeClassname: "fa-solid fa-list-check"
     },
     {
       skillName: "Networking",
-      fontAwesomeClassname: "fa-regular fa-network-wired"
+      fontAwesomeClassname: "fa-solid fa-network-wired"
     },
     {
-      skillName: "OS",
-      fontAwesomeClassname: "fab fa-server"
+      skillName: "Operating Systems",
+      fontAwesomeClassname: "fa-solid fa-server"
     },
     {
       skillName: "Distributed Systems",
@@ -155,15 +159,15 @@ const techStack = {
   experience: [
     {
       Stack: "Infracture", //Insert stack or technology you have experience in
-      progressPercentage: "82%" //Insert relative proficiency in percentage
+      progressPercentage: "72%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Automation",
-      progressPercentage: "74%"
+      progressPercentage: "78%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "68%"
+      progressPercentage: "75%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
