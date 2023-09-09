@@ -263,7 +263,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "",
+      title: "Learnings",
       subtitle:
         "I belive in continuous learning, I upskill myself with my job relavent courses on NPTEL.",
       image: require("./assets/images/nptel.png"),
