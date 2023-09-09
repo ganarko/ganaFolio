@@ -23,5 +23,31 @@ yarn-debug.log*
 yarn-error.log*
 
 #user generated content
+
+#fontawesome exclusions
 public/profile.json
 public/blogs.json
+public/fontawesome/js
+public/fontawesome/less
+public/fontawesome/metadata
+public/fontawesome/scss
+public/fontawesome/sprites
+public/fontawesome/svgs
+public/fontawesome/webfonts
+public/fontawesome/LICENSE.txt
+
+all.css
+brands.min.css
+fontawesome.css
+fontawesome.min.css
+regular.css
+regular.min.css
+solid.min.css
+svg-with-js.css
+svg-with-js.min.css
+v4-font-face.css
+v4-font-face.min.css
+v4-shims.css
+v4-shims.min.css
+v5-font-face.css
+v5-font-face.min.css
