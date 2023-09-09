@@ -141,11 +141,11 @@ const educationInfo = {
       schoolName: "Jawahar Navodaya Vidyalaya",
       logo: require("./assets/images/jnv.webp"),
       subHeader: "Bachelor of Engineering in Electrical and Electronics Engineering",
-      duration: "July 2017 - July 2021",
-      desc: "Birthplace of my Engineering Soul",
+      duration: "July 2012 - July 2014",
+      desc: "Best School life one can Imaine",
       descBullets: [
-        "It's Magic",
-        "Culture, Campus Life and Peers"
+        "Place to learn Self-sufficiency",
+        "Most Memorable School life"
       ]
     },
 
