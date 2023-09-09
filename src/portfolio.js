@@ -50,7 +50,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Curious SRE Who love's to Design Reliable and Scalable Systems",
+  subTitle: "Curious SRE Who loves to Design Reliable and Scalable Systems",
   skills: [
     emoji(
       "⚡ Build, Maintain Sophisticated and Resilient Infrastructure"
@@ -140,9 +140,9 @@ const educationInfo = {
     {
       schoolName: "Jawahar Navodaya Vidyalaya",
       logo: require("./assets/images/jnv.webp"),
-      subHeader: "Bachelor of Engineering in Electrical and Electronics Engineering",
+      subHeader: "Class 10th",
       duration: "July 2012 - July 2014",
-      desc: "Best School life one can Imaine",
+      desc: "Being a Navodayan since..",
       descBullets: [
         "Place to learn Self-sufficiency",
         "Most Memorable School life"
