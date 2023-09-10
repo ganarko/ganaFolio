@@ -300,7 +300,7 @@ const blogSection = {
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://localhost:3000",
+      url: "https://heygana.lol/",
       title: "My First blog",
       description:
         "May be on Travel or Tech (Soon, I hope)"
