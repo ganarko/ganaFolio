@@ -182,7 +182,7 @@ const workExperiences = {
       role: "Site Reliability Engineer",
       company: "media.net",
       companylogo: require("./assets/images/mnet.png"),
-      date: "Jul 2021 – Present",
+      date: "Jul 2021 – Nov 2023",
       desc: "trying to deliver ads faster, while you're browsing.",
       descBullets: [
         "Highly Focused mode, during Black Friday",
