@@ -179,11 +179,23 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Engineer (SRE)",
+      company: "rubrik",
+      companylogo: require("./assets/images/rubrik-logo.png"),
+      date: "Dec 2023 – Present",
+      desc: "Building Infra to Secure Enterprise Data",
+      descBullets: [
+        "My Routine in 3 words Reliability, Availability and Security",
+        "High Accountability and Super Critical Infra to Take care of."
+        
+      ]
+    },
+    {
       role: "Site Reliability Engineer",
       company: "media.net",
       companylogo: require("./assets/images/mnet.png"),
       date: "Jul 2021 – Nov 2023",
-      desc: "trying to deliver ads faster, while you're browsing.",
+      desc: "Helping ads to faster than webpage ",
       descBullets: [
         "Highly Focused mode, during Black Friday",
         "It's all about Latency, Scalability, Availability, Observability and Automation "
