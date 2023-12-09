@@ -1,6 +1,7 @@
 git push origin master
 
-#Deletes and pushes again to same name branch
+#Deletes branch gh-pages
 git push origin :gh-pages
 
+#Pushes and creates branch 
 npm run deploy
