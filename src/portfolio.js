@@ -195,7 +195,7 @@ const workExperiences = {
       company: "media.net",
       companylogo: require("./assets/images/mnet.png"),
       date: "Jul 2021 – Nov 2023",
-      desc: "Helping ads to faster than webpage ",
+      desc: "Helping ads to load faster than webpage ",
       descBullets: [
         "Highly Focused mode, during Black Friday",
         "It's all about Latency, Scalability, Availability, Observability and Automation "
