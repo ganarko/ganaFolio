@@ -50,10 +50,10 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Curious SRE Who loves to Design Reliable and Scalable Systems",
+  subTitle: "Someone Who loves to Design Reliable and Scalable Systems",
   skills: [
     emoji(
-      "⚡ Build, Maintain Sophisticated and Resilient Infrastructure"
+      "⚡ Build, Maintain Sophisticated and Resilient Systems"
     ),
     emoji("⚡ Automate as much as Possible"),
     emoji(
@@ -180,8 +180,8 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer (SRE)",
-      company: "rubrik",
-      companylogo: require("./assets/images/rubrik-logo.png"),
+      company: "Rubrik",
+      companylogo: require("./assets/images/rubrik.png"),
       date: "Dec 2023 – Present",
       desc: "Building Infra to Secure Enterprise Data",
       descBullets: [
