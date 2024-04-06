@@ -37,6 +37,12 @@ export default function Greeting() {
               >
                 {greeting.subTitle}
               </p>
+              <h2>One Line Intro</h2>
+              <audio controls>
+                <source src="https://github.com/ganarko/Dailer-Dost/raw/master/mini-intro.mp3" type="audio/mp3"/>
+              </audio>
+              <br/>
+              <br/>
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
